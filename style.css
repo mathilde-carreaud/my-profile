@@ -1,0 +1,124 @@
+body {
+	background-color: rgb(254, 249, 242);
+	color :rgb(135, 162, 255);
+	 font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+
+
+h1 h2 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+h1 {
+	color : rgb(120, 157, 188);
+	letter-spacing: 5px;
+	font-size:50px;
+	}
+
+h2 {
+	color : palevioletred;
+	letter-spacing: 3px;
+	font-size:20px;
+	front-weight: darker;
+	}
+a {
+	text-decoration:none;
+	color : darkgrey;
+	front-weight:bold;
+
+}
+a:hover{
+	color:rgb(238, 202, 213);
+}
+
+/* Custom design with class */
+
+.container {
+        width: 700px;
+        margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+        .container {
+                width: 600px;
+        }
+}
+
+@media (max-width: 500px) {
+        .container {
+                width: 400px;
+        }
+}
+
+
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+
+
+.img-circle {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+
+
+.btn-blue{
+	background-color:rgb(120, 157, 188);
+	color:white;
+ padding: 11px 10px;
+ border-radius: 3px;
+ }
+
+.btn-blue:hover {
+	background-color:grey;
+	color:white;
+}
+
+
+.list-line {
+	list-style: non;
+	padding-left: 0px;
+}
+
+.list-line li {
+	display: inline;
+	padding: 40 px;
+	}
+
+.list-line i:hover {
+	color:grey;
+}
+
+.list-line i {
+	font-size: 50px;
+	color:rgb(120, 157, 188);
+}
+
+#introduction p {
+	margin-bottom:40px ;
+}
+
+
+
+
+
+
+
+
